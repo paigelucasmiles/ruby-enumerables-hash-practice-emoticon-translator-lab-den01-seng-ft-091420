@@ -15,9 +15,8 @@ def get_japanese_emoticon(yaml, emoticon)
   local_library.each do |key, value|
    if value[:english] == emoticon
      value[:japanese]
-    #end
-#  end
-  
+    end
+  end
 end
 
 def get_english_meaning
