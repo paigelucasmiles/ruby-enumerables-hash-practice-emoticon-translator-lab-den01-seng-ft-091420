@@ -11,7 +11,9 @@ def load_library(yaml)
 end
 
 def get_japanese_emoticon(yaml, english_emoticon)
-  load_library(yaml)
+  local_library = load_library(yaml)
+  local_library.key(english_emoticon)
+  binding.pry
 end
 
 def get_english_meaning
