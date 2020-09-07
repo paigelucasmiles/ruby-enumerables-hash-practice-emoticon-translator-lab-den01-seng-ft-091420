@@ -17,6 +17,7 @@ def get_japanese_emoticon(yaml, emoticon)
       value[:japanese]
     end
   end
+  p ""
 end
 
 def get_english_meaning
