@@ -8,7 +8,6 @@ def load_library(yaml)
     if !new_library[key]
       new_library[key] = {:english => values[0], :japanese => values[1]}
     end
-    p new_library
   end
 end
 
