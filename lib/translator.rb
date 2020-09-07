@@ -14,7 +14,7 @@ def get_japanese_emoticon(yaml, english_emoticon)
   local_library = load_library(yaml)
   local_library.each do |key, value|
     if value[:english] == english_emoticon
-      p [key][value][:japanese]
+      puts value[:japanese]
       binding.pry
     else 
       p "Sorry!"
