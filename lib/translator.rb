@@ -17,7 +17,7 @@ def get_japanese_emoticon(yaml, emoticon)
       value[:japanese]
     end
   end
-  p "Sorry, that emoticon was not found"
+  p ""
 end
 
 def get_english_meaning
