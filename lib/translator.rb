@@ -15,11 +15,10 @@ def get_japanese_emoticon(yaml, emoticon)
   local_library.each do |key, value|
     if value[:english] == emoticon
       binding.pry
-      p value[:japanese]
-    else 
-      p "Sorry, that emoticon was not found"
+      value[:japanese]
     end
   end
+  
 end
 
 def get_english_meaning
