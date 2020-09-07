@@ -14,6 +14,7 @@ def get_japanese_emoticon(yaml, english_emoticon)
   local_library = load_library(yaml)
   local_library.each do |key, value|
     binding.pry
+  end
 end
 
 def get_english_meaning
