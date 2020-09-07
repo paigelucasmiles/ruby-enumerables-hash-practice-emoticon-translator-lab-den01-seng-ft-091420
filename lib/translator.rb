@@ -5,9 +5,7 @@ def load_library(yaml)
   new_library = {}
   thing = YAML.load_file(yaml)
   thing.each do |key, values|
-    if !new_library[key]
-      new_library[key] = {:english => values[0], :japanese => values[1]}
-    end
+    new_library[key] = {:english => values[0], :japanese => values[1]}
   end
 end
 
