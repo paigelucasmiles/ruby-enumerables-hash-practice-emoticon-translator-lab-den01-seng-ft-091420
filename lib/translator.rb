@@ -16,7 +16,7 @@ def get_japanese_emoticon(yaml, english_emoticon)
     if value[:english] == english_emoticon
       puts value[:japanese]
     else 
-      p "Sorry!"
+      p "Sorry, that emoticon was not found"
     end
   end
 end
