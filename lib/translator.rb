@@ -7,7 +7,6 @@ def load_library(yaml)
   thing.each do |key, values|
     new_library[key] = {:english => values[0], :japanese => values[1]}
   end
-  new_library
 end
 
 def get_japanese_emoticon(yaml, emoticon)
