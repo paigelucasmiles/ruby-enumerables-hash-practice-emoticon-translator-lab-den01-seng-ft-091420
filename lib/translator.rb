@@ -10,7 +10,7 @@ def load_library(yaml)
   p new_library
 end
 
-def get_japanese_emoticon(yaml, japane_emoticon)
+def get_japanese_emoticon(yaml, english_emoticon)
   load_library(yaml)
   binding.pry
 end
