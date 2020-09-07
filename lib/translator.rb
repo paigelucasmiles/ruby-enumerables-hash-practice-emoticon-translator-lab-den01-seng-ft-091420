@@ -12,7 +12,7 @@ end
 
 def get_japanese_emoticon(yaml, english_emoticon)
   local_library = load_library(yaml)
-  emotion = local_library[:english]
+  local_library.fetch(english_emoticon)
 end
 
 def get_english_meaning
