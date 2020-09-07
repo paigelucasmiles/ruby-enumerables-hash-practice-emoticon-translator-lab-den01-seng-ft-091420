@@ -20,6 +20,6 @@ def get_japanese_emoticon(yaml, emoticon)
   p "Sorry, that emoticon was not found"
 end
 
-def get_english_meaning
-  # code goes here
+def get_english_meaning(yaml, emoticon)
+  local_library = local_library(yaml)
 end
