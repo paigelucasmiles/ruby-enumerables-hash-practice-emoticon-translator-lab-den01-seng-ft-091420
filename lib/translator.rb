@@ -12,7 +12,7 @@ end
 
 def get_japanese_emoticon(yaml, english_emoticon)
   load_library(yaml)
-  puts 
+  puts key(english_emoticon)
 end
 
 def get_english_meaning
