@@ -12,7 +12,9 @@ end
 
 def get_japanese_emoticon(yaml, english_emoticon)
   local_library = load_library(yaml)
-  local_library.fetch(english_emoticon)
+  local_library.each do |lang, emoticon|
+    if emoticon == english_emoticon
+      p lang
 end
 
 def get_english_meaning
