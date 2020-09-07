@@ -12,7 +12,7 @@ end
 
 def get_japanese_emoticon(yaml, english_emoticon)
   local_library = load_library(yaml)
-  puts local_library.[:english]?(english_emoticon)
+  puts local_library.[:english]? (english_emoticon)
   binding.pry
 end
 
